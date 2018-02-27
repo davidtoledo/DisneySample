@@ -40,7 +40,7 @@
       url: "/tickets/add",
       dataType: "json",
       type : "POST",
-      data: varData,
+      data: ,
       success : function(r) {
         console.log(r);
       }
