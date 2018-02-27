@@ -40,7 +40,11 @@
       url: "/tickets/add",
       dataType: "json",
       type : "POST",
-      data: varData,
+      data: { 
+    u: { 
+      id : 12,
+      email : "john@smith.com" 
+    },
       success : function(r) {
         console.log(r);
       }
@@ -73,7 +77,7 @@
 * **Success Response:**
 
   * **Code:** 200 <br />
-    **Content:** `{ id : 5034, name : "David Costa", email : "david.oracle@gmail.com", address: "2023 Grand Oak DR", type : "ORDER" }`
+    **Content:** `{ id : 5034, name : [string], email : [string], address: [string], type : [string] }`
  
 * **Error Response:**
 
