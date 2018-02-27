@@ -11,41 +11,35 @@
   `POST`
   
 *  **URL Params**
-
-   **Required:**
- 
-   `name=[String]`
-   `email=[String]`
-   `address=[String]`
-   `type=[Integer]`
-   `creditCard=[String]`
-
+   
+   None
+   
 * **Data Params**
 
-  None
+  { ticket : { name : [string], email : [string], address : [string] type : [string], creditCard : [string] } }
 
 * **Success Response:**
 
-  * **Code:** 200 <br />
-    **Content:** `{ id : 12, name : "Michael Bloom" }`
+  * **Code:** 201 <br />
+    **Content:** `{ id : 1012, msg : "Ticket Successfully Created" }`
  
 * **Error Response:**
 
-  * **Code:** 404 NOT FOUND <br />
-    **Content:** `{ error : "User doesn't exist" }`
+  * **Code:** 422 Unprocessable Entry <br />
+    **Content:** `{ error : "Invalid input data" }`
 
   OR
 
   * **Code:** 401 UNAUTHORIZED <br />
-    **Content:** `{ error : "You are unauthorized to make this request." }`
+    **Content:** `{ error : "You are not allowed to make this request." }`
 
 * **Sample Call:**
 
   ```javascript
     $.ajax({
-      url: "/users/1",
+      url: "/tickets/add",
       dataType: "json",
-      type : "GET",
+      type : "POST",
       success : function(r) {
         console.log(r);
       }
