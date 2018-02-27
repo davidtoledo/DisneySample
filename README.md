@@ -21,7 +21,7 @@
 * **Success Response:**
 
   * **Code:** 201 <br />
-    **Content:** `{ ticket_id : 5032, msg : "Ticket Successfully Created" }`
+    **Content:** `{ id : 5032, msg : "Ticket Successfully Created" }`
  
 * **Error Response:**
 
@@ -54,7 +54,7 @@
 
 * **URL**
 
-  /tickets/:ticket_id
+  /tickets/:id
 
 * **Method:**
 
