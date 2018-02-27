@@ -21,7 +21,7 @@
 * **Success Response:**
 
   * **Code:** 201 <br />
-    **Content:** `{ id : 1012, msg : "Ticket Successfully Created" }`
+    **Content:** `{ ticket_id : 5032, msg : "Ticket Successfully Created" }`
  
 * **Error Response:**
 
