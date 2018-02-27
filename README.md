@@ -1,14 +1,14 @@
-**Show User**
+**Create Ticket Order**
 ----
-  Returns json data about a single user.
+  Creates a ticket order on disneyworld.com
 
 * **URL**
 
-  /users/:id
+  /tickets/add
 
 * **Method:**
 
-  `GET`
+  `POST`
   
 *  **URL Params**
 
