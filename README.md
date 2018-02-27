@@ -41,10 +41,13 @@
       dataType: "json",
       type : "POST",
       data: { 
-    u: { 
-      id : 12,
-      email : "john@smith.com" 
-    },
+        u: { 
+          id      : 5034,
+          email   : "email@disney.com" ,
+          address : "2023 Grand Oak DR',
+          type    : "ORDER",
+          creditCard : "ec331f5dd1c5f40e28ea541caec913f6"
+        },
       success : function(r) {
         console.log(r);
       }
@@ -77,7 +80,7 @@
 * **Success Response:**
 
   * **Code:** 200 <br />
-    **Content:** `{ id : 5034, name : [string], email : [string], address: [string], type : [string] }`
+    **Content:** `{ id : [integer], name : [string], email : [string], address: [string], type : [string] }`
  
 * **Error Response:**
 
