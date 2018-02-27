@@ -14,7 +14,11 @@
 
    **Required:**
  
-   `id=[integer]`
+   `name=[String]`
+   `email=[String]`
+   `address=[String]`
+   `type=[Integer]`
+   `creditCard=[String]`
 
 * **Data Params**
 
