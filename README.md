@@ -47,7 +47,7 @@
           address : "2023 Grand Oak DR",
           type    : "ORDER",
           creditCard : "ec331f5dd1c5f40e28ea541caec913f6"
-        },
+        },
       success : function(r) {
         console.log(r);
       }
