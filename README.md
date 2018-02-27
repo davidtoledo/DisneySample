@@ -50,7 +50,7 @@
 
 **Retrieve Ticket Data**
 ----
-  Returns data about a specific ticket.
+  Returns data about a specific ticket on disneyworld.com
 
 * **URL**
 
