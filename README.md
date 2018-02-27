@@ -73,7 +73,7 @@
 * **Success Response:**
 
   * **Code:** 200 <br />
-    **Content:** `{ id : 5034, name : "David Costa", email : "david.oracle@gmail.com", address: "2023 Grand Oak DR", type : "ORDER" }`
+    **Content:** `{ id : 5034, name : "David Costa", email : "david.oracle@gmail.com", address: "2023 Grand Oak DR", type : "ORDER" }`
  
 * **Error Response:**
 
