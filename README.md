@@ -41,7 +41,7 @@
       dataType: "json",
       type : "POST",
       data: { 
-        u: { 
+        ticket: { 
           id      : 5034,
           email   : "email@disney.com" ,
           address : "2023 Grand Oak DR",
